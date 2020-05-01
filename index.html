@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>COVID Tracker</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="corona.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=NotoSans:100,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="title">COVID-19 Tracker</h1>
+      <h2 class="subtitle">
+        Get the latest statistics regarding the Corona Virus.
+      </h2>
+      <div class="data-container">
+        <div class="stats-container">
+          <h5>Cases :</h5>
+          <h2 id="cases"></h2>
+          <h5>Deaths :</h5>
+          <h1 id="deaths"></h1>
+          <h5>% of Deaths :</h5>
+          <h1 id="percent"></h1>
+        </div>
+        <div class="location-container">
+          <h5>Country :</h5>
+          <h1 id="country">Bangladesh</h1>
+          <h5>Population :</h5>
+          <h1 id="population"></h1>
+          <h5>Last Updated :</h5>
+          <h1 id="update"></h1>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <h1 class="footer">
+        Made by Junaid | Statistics collected from
+        <a href="https://systems.jhu.edu/research/public-health/ncov/"
+          >Johns Hopkins University</a
+        >
+      </h1>
+    </div>
+  </body>
+</html>
